@@ -11,7 +11,7 @@ export default function Results({ element, artwork }) {
       </p>
       {artwork ? (
         <div className="artwork">
-          <h3> Btw, Meet your new best furry friend (virtually, of course!).</h3>
+          <h3> Btw, Meet your new best furry friend (virtually, of course!). 🐶</h3>
           <img src={artwork.message} alt={'random dog image'} />
         </div>
       ) : (

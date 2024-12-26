@@ -19,8 +19,16 @@ function App() {
     {
       question: "What's your favourite color?",
       options: ["Red 🔴", "Blue 🔵", "Green 🟢", "Yellow 🟡"]
+    },
+    {
+      question: "What's your favourite season?",
+      options: ["Summer ☀️", "Winter ❄️", "Spring 🌸", "Autumn 🍂"]
+    },
+    {
+      question: "What's your favourite animal?",
+      options: ["Lion 🦁", "Dolphin 🐬", "Elephant 🐘", "Eagle 🦅"]
     }
-  ]
+  ];
 
   const keywords = {
     Fire: "fire",
@@ -34,6 +42,14 @@ function App() {
     "Blue 🔵": "Water",
     "Green 🟢": "Earth",
     "Yellow 🟡": "Air",
+    "Summer ☀️": "Fire",
+    "Winter ❄️": "Water",
+    "Spring 🌸": "Earth",
+    "Autumn 🍂": "Air",
+    "Lion 🦁": "Fire",
+    "Dolphin 🐬": "Water",
+    "Elephant 🐘": "Earth",
+    "Eagle 🦅": "Air",
   };
 
   function handleAnswer(answer){
